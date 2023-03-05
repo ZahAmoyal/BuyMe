@@ -71,6 +71,8 @@ public class SignUpPage extends BasePage {
     }
     public SignUpPage clickSubmitButton(){
         click(submitButton);
+        click(submitButton);
         return this;
+
     }
 }
